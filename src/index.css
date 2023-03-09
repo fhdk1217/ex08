@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Gugi';
+    src: url('./Gugi-Regular.ttf');
+}
+
+body {
+    font-family: 'Gugi';
+    margin: 10px;
+}

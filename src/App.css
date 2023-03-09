@@ -1,0 +1,97 @@
+.App {
+    width: 80%;
+    margin: 0px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu {
+    border-bottom: 3px solid gray;
+    margin: 30px 0px;
+    padding-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: gray;
+    padding-right: 30px;
+    font-size: 1.2rem;
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+img {
+    width: 100%;
+}
+
+.footer h3 {
+    text-align: center;
+}
+
+.footer {
+    border-top: 3px solid gray;
+    margin-top: 100px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.product {
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ellipsis {
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: -webkit-box; 
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+}
+
+.product .title {
+    font-size: 0.7rem;
+}
+
+input {
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Gugi';
+    margin-left: 5px;
+}
+
+button {
+    font-family: 'Gugi';
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 1px solid gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    margin: 0px auto;
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 1px solid gray;
+    padding: 5px 10px;
+}
+
+thead {
+    text-align: center;
+}

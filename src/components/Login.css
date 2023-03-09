@@ -1,0 +1,10 @@
+.login input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login form {
+    width: 20%;
+    margin: 0px auto;
+    text-align: center;
+}
